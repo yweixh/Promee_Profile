@@ -12,6 +12,7 @@
         
         private void OnButtonClicked(object sender, EventArgs e)
         {  
+             await Navigation.PushAsync(new EditProfilePage());
         }
 
         
